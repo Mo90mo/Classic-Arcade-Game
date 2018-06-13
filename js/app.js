@@ -39,7 +39,7 @@ Enemy.prototype.checkCollision = function() {
 };
 
 // Update the enemy's position
-// Parameter: dt, a time delta between ticks
+// Parameter: dt, a time delta 
 Enemy.prototype.update = function(dt) {
    this.x += this.speed*dt;
     // When enemies exit right, they loop back to the left.
@@ -71,7 +71,7 @@ var Player = function(x, y, speed) {
 };
 // Player Updates:
 Player.prototype.update = function(dt) {
-    // Keeps player from leaving left, right, or bottom boundaries.
+    // Keeps player from moving outside the canvas
     if (this.y > 500) {
         this.y = 500;
     }
@@ -105,7 +105,7 @@ Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 
-// Function to control player with directional arrow keys.
+// Function to control player with arrow keys.
 Player.prototype.handleInput = function (e) {
     if (e == 'left') {
         this.x -= this.speed;
