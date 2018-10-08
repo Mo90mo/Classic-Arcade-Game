@@ -4,6 +4,7 @@
 
 * [Instructions](#instructions)
 * [What I've done](#whatI'vedone)
+* [How to run it](#howtorunit)
 * [Sources](#sources)
 
 ## Instructions
@@ -25,6 +26,11 @@ To play, just press the arrows on your keypad in order to move th player.
 - I created a "record" section which takes note of the best score of the player
 - I created a slide window to explain to the user how to play.
 - I created a pop up window which appears at the end of the game reporting the score and asking if the player wants to play again.
+
+## How to run it
+
+- Download the repository as zip file in your computer or alternatively you can clone or fork it.
+- Open the index.html file in your browser.
 
 ## Sources
 
