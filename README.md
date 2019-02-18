@@ -15,6 +15,8 @@ The goal of the game is to reach the water as many time as possibile before loos
 
 To play, just press the arrows on your keypad in order to move th player.
 
+You can see a demo at: https://classic-arcade.netlify.com/
+
 ## What I've done
 
 - I created an enemy prototype with a render, update and checkcollision function
